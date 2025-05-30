@@ -1,5 +1,3 @@
-from pydoc import text
-
 import requests
 
 # response = requests.get('https://api.github.com')
@@ -81,5 +79,29 @@ import requests
 #         print(f"Не совпадает")
 
 """
-
+Сделай GET-запрос на URL, который возвращает редирект (например, http://github.com) и обрабатывает таймаут.
+Убедись, что ты можешь настроить поведение (следовать/не следовать редиректу, обработать исключение при таймауте).
 """
+
+# site = 'https://github.com/'
+#
+# try:
+#     response = requests.get('http://github.com', allow_redirects=True, timeout=10)
+#
+#     if response.url == site:
+#         print("url совпадает")
+#     else:
+#         print(f"url не совпадает: {response.url}")
+#
+# except requests.exceptions.Timeout:
+#     print("Истекло время ожидания запроса")
+#
+# except requests.exceptions.RequestException as error:
+#     print(f"Произошла ошибка запроса {error}")
+
+
+
+
+
+
+
