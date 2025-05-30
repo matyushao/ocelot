@@ -82,11 +82,10 @@ import requests
 Сделай GET-запрос на URL, который возвращает редирект (например, http://github.com) и обрабатывает таймаут.
 Убедись, что ты можешь настроить поведение (следовать/не следовать редиректу, обработать исключение при таймауте).
 """
-
 # site = 'https://github.com/'
 #
 # try:
-#     response = requests.get('http://github.com', allow_redirects=True, timeout=10)
+#     response = requests.get('https://github.com', allow_redirects=True, timeout=10)
 #
 #     if response.url == site:
 #         print("url совпадает")
